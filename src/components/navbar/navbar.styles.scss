@@ -1,0 +1,42 @@
+nav {
+  background-color: #091431;
+  padding: 0 20px;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  // margin-bottom: 25px;
+  .links {
+    display: flex;
+    justify-content: space-between;
+    a {
+      padding: 20px 0;
+      text-transform: capitalize;
+    }
+    .active {
+      color: #f01c21 !important;
+      position: relative;
+      height: 100%;
+      &:after {
+        content: "";
+        display: block;
+        height: 3px;
+        width: 100%;
+        background-color: #f01c21;
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  nav {
+    display: grid;
+    place-items: center;
+    .links {
+      width: 70%;
+      max-width: 600px;
+    }
+  }
+}

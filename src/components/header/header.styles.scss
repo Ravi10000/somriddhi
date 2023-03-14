@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  gap: 10px;
+  align-items: center;
+  background: #f8f8f8;
+
+  img {
+    height: fit-content;
+    width: fit-content;
+  }
+  .logged-in {
+    display: flex;
+    background: #fff;
+    border: 2px solid #ebebeb;
+    color: #f01c21;
+    font-weight: 600;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    img {
+      width: 15px;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10%;
+    .search {
+      width: 50%;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    padding: 20px 25%;
+  }
+}

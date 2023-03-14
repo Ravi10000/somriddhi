@@ -1,0 +1,14 @@
+form.otp-form {
+  .otp-inputs {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    input {
+      font-size: 2rem;
+      width: 50px;
+    }
+  }
+  .invalid {
+    color: #f2383d;
+  }
+}

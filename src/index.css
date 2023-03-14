@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/metropolis.regular.otf");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 100;
+  src: url("/fonts/metropolis.thin.otf");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 200;
+  src: url("/fonts/metropolis.extra-light.otf");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 300;
+  src: url("/fonts/metropolis.light.otf");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 500;
+  src: url("/fonts/metropolis.medium.otf");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 600;
+  src: url("/fonts/metropolis.semi-bold.otf");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 700;
+  src: url("/fonts/metropolis.bold.otf");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 800;
+  src: url("/fonts/metropolis.extra-bold.otf");
+}
+
+@font-face {
+  font-family: "Metropolis";
+  font-weight: 900;
+  src: url("/fonts/metropolis.black.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
+body {
+  font-family: "Metropolis", sans-serif;
+  color: #091431;
+  background: #f8f8f8;
+}
+
+input {
+  font-family: "Metropolis", sans-serif;
+  color: #908f8f;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+._title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 50px 0;
+  position: relative;
+  width: fit-content;
+}
+
+._title:after {
+  content: "";
+  height: 5px;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75px;
+  border-radius: 3px;
+  background: #f01c21;
+  position: absolute;
+  bottom: -10px;
+}
+/* *{
+  outline: 2px solid red;
+} */
