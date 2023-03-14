@@ -20,7 +20,7 @@ import ProtectedRoute from "./components/protected-route/protected-route";
 // pages
 import HomePage from "./pages/home/home.page";
 import CouponPage from "./pages/coupon/coupon-page";
-import CategoryPage from "./pages/category/category-page";
+import CategoryPage from "./pages/Category/category-page";
 import CouponsClaimedPage from "./pages/coupon-claimed/coupon-claimed-page";
 import ProfilePage from "./pages/profile/profile-page";
 
